@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradiciones Mexicanas: Día de Muertos y La Catrina</title>
+
+    <!-- Estilos CSS -->
+    <style>
+        /* ======== ESTILOS GENERALES ======== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(180deg, #ffcc80 0%, #fff3e0 100%);
+            margin: 0;
+            padding: 0;
+            color: #2c2c2c;
+        }
+
+        header {
+            background: linear-gradient(90deg, #e65100, #ff9800);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header h3 {
+            font-weight: normal;
+            margin-top: 0;
+        }
+
+        nav {
+            background-color: #fff3e0;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: #bf360c;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 20px;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            color: #e65100;
+            transform: scale(1.1);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        /* ======== TARJETAS ======== */
+        .card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            margin-bottom: 40px;
+            padding: 25px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .card h2 {
+            color: #d84315;
+            border-left: 6px solid #ff6f00;
+            padding-left: 10px;
+        }
+
+        .card p {
+            line-height: 1.6;
+            text-align: justify;
+            font-size: 1.05em;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+            border: 3px solid #ffcc80;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #fff3e0;
+            margin: 6px 0;
+            padding: 8px 12px;
+            border-left: 4px solid #ff6f00;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background: linear-gradient(90deg, #ff9800, #e65100);
+            color: white;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+        }
+
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+            main {
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <h1>🇲🇽 Tradiciones Mexicanas 🇲🇽</h1>
+        <h3>Día de Muertos y el Origen de la Catrina</h3>
+    </header>
+
+   
+    <nav>
+        <a href="#diademuertos">Día de Muertos</a>
+        <a href="#catrina">La Catrina</a>
+        <a href="#creditos">Créditos</a>
+    </nav>
+
+    
+    <main>
+        <section id="diademuertos" class="card">
+            <h2> Día de Muertos</h2>
+            <p>
+                El <strong>Día de Muertos</strong> es una de las celebraciones más emblemáticas de México.
+                Se lleva a cabo los días <strong>1 y 2 de noviembre</strong> y tiene sus raíces en las
+                culturas <em>mexica, maya y purépecha</em>.
+            </p>
+            <p>
+                En esta festividad, las familias elaboran <strong>altares</strong> con flores de cempasúchil,
+                velas, papel picado, comida y fotos de los seres queridos fallecidos. Es una ocasión para
+                recordar con alegría, no con tristeza.
+            </p>
+            <img src="https://cdn.unotv.com/images/2024/10/elementos-de-la-ofrenda-de-muertos-105546-1024x576.jpg" alt="Ofrenda de Día de Muertos">
+        </section>
+
+        <section id="catrina" class="card">
+            <h2> Origen de La Catrina</h2>
+            <p>
+                La <strong>Catrina</strong> nació de la obra del grabador <strong>José Guadalupe Posada</strong>,
+                quien la llamó <em>“La Calavera Garbancera”</em>. Fue una crítica social hacia aquellos que
+                negaban sus raíces indígenas y querían parecer europeos.
+            </p>
+            <p>
+                Más tarde, <strong>Diego Rivera</strong> la inmortalizó en su mural 
+                <em>"Sueño de una tarde dominical en la Alameda Central"</em>, transformándola en el ícono 
+                elegante y colorido que hoy representa la igualdad ante la muerte.
+            </p>
+            <img src="https://www.shutterstock.com/image-vector/catrina-female-symbol-day-dead-600nw-2480581053.jpg" alt="La Catrina">
+        </section>
+
+        <section id="creditos" class="card">
+            <h2> Créditos</h2>
+            <ul>
+                <li><strong>Autor:</strong> Josué Tlacalel Pérez Salguero</li>
+                <li><strong>Materia:</strong> Módulo</li>
+                <li><strong>Grado:</strong> 5° semestre de preparatoria</li>
+                <li><strong>Institución:</strong> CECYTEM Plantel II Neza</li>
+                <li><strong>Fuentes de imágenes:</strong> gugul/ UnoTV</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 Tradiciones Mexicanas | Hecho por josue el mas capito
+    </footer>
+
+</body>
+</html>
+
